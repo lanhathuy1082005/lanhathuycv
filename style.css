@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family:Arial, Helvetica, sans-serif;
     border:10px solid;
@@ -5,7 +9,6 @@ body {
     border-image-width: 20px;
     border-image-source: url(pic.jpg);
     border-image-slice:100;
-    box-sizing: border-box;
 }
 
 .left-container, .right-container {
@@ -77,9 +80,18 @@ nav a:hover{
 #ielts{
     text-decoration: none;
     color: rgb(69, 164, 248);
+    font-weight: bold;
 }
 
 #ielts:hover {
     opacity: 0.7;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .left-container, .right-container {
+        width: auto;
+        height: auto;
+        float: none;
+    }
 }
