@@ -100,4 +100,9 @@ nav a:hover{
         height: auto;
         float: none;
     }
+
+    nav a {
+        font-size: 10px;
+        display: inline-block;
+    }
 }
