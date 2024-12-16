@@ -1,0 +1,85 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    border:10px solid;
+    padding:10px;
+    border-image-width: 20px;
+    border-image-source: url(pic.jpg);
+    border-image-slice:100;
+    box-sizing: border-box;
+}
+
+.left-container, .right-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+.right-container {
+    float: right;
+    width: 70%; 
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+
+
+.left-container {
+    width: 30%; 
+    background-color: #e9ecef;
+    height: 100vh;
+}
+
+.left-container img {
+    height: 20vw;
+    width: 17vw;
+}
+
+h1{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: right;
+    background-color: rgb(10, 99, 119);
+    padding: 14px 16px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 14px 16px;
+    color:rgb(180, 180, 180);
+}
+
+nav a:hover{
+    background-color: rgb(63, 121, 133);    
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+   opacity: 0.7;
+}
+  
+.fa-facebook,.fa-google,.fa-youtube,.fa-instagram {
+    background: rgb(63, 121, 133);
+    color: white;
+}
+
+#ielts{
+    text-decoration: none;
+    color: rgb(69, 164, 248);
+}
+
+#ielts:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
